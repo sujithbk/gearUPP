@@ -1,0 +1,307 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Playfair Display', serif; */
+
+/* //navbar css */
+/* .navbar {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  line-height: 26px;
+  text-transform: uppercase;
+  box-shadow: 0 8px 6px -6px gray;
+  --webkit-box-shadow: 0 8px 6px -6px gray;
+  border-bottom: solid gray !important;
+}
+
+.nav-link {
+  font-weight: 300 !important;
+}
+
+.active {
+  border-bottom: 2px solid black;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-family: "roboto", sans-serif;
+  letter-spacing: 3px;
+} */
+/* =============================
+==========footer============= */
+/* 
+.footer {
+  color: white;
+  padding: 25px;
+  background: #000000;
+  background: -webkit-linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); 
+  background: linear-gradient(to right, #434343, #000000);
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.footer a:hover {
+  color: #ffefba;
+  border-bottom: 1px solid #ffefba;
+} */
+/* =================================
+======== page not found css ======= */
+/* .pnf {
+  display: flex;
+  min-height: 65vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pnf-title {
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.pnf-heading {
+  font-weight: normal;
+}
+
+.pnf-btn {
+  color: black;
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 10px;
+}
+.pnf-btn:hover {
+  background-color: black;
+  color: white;
+} */
+/* ========================================= */
+/* =========contact us ========= */
+/* .contactus {
+  margin: 0;
+  padding: 0;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,900&family=Poppins:wght@400;500;600&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    color: rgb(242, 242, 44);
+    font-size: 35px;
+    font-family:  'Kanit', sans-serif;
+    text-transform: none;
+}
+.navbar{
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    line-height: 26px;
+    text-transform: uppercase;
+    box-shadow: 0 8px -6px gray ;
+    border-bottom: solid rgb(228, 221, 221);
+    background-color: rgb(166 236 236);
+}
+.nav-link{
+  font-weight: 300 !important;
+}
+.active{
+  border-bottom: 1.5px solid rgb(67, 67, 67);
+}
+/* Footer.css */
+
+.footer {
+    color: #101010;
+    padding: 25px;
+    background: rgb(98, 139, 150);
+
+  }
+  .footer a {
+    text-decoration: none;
+    color: #101010;
+    padding: 10px;
+  }
+  .footer a:hover {
+    color: #343a40;
+    border-bottom: 1px solid gray;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .col-lg-6 {
+    width: 48%;
+  }
+  
+  .footer-bottom {
+    background-color: #343a40;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  /*page not found*/
+
+  .pnf {
+    display: flex;
+    min-height: 65vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+    
+ .pnf-titile{ 
+    font-size: 100px;
+    font-weight: 700;
+    } 
+
+ .pnf-heading {
+    font-weight: normal;
+    }
+
+ .pnf-btn {
+    color: black;
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 10px;
+    }
+ .pnf-btn:hover{
+    background-color: rgb(166 236 236) ;
+ }
+
+ /* / /  Registration form // */
+
+ .register{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   height: 70vh;
+   flex-direction: column;
+
+ }
+
+
+ /* css */
+
+
+ .main-content{
+	width: 50%;
+	border-radius: 20px;
+	margin: 5em auto;
+	display: flex;
+}
+.company__info{
+  background-color: rgb(166 236 236);
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: #fff;
+}
+.fa-android{
+	font-size:3em;
+}
+@media screen and (max-width: 640px) {
+	.main-content{width: 90%;}
+	.company__info{
+		display: none;
+	}
+	.login_form{
+		border-top-left-radius:20px;
+		border-bottom-left-radius:20px;
+	}
+}
+@media screen and (min-width: 642px) and (max-width:800px){
+	.main-content{width: 70%;}
+}
+.row > h2{
+	color:#008080;
+}
+.login_form{
+	background-color: #fff;
+	border-top-right-radius:20px;
+	border-bottom-right-radius:20px;
+	border-top:1px solid #ccc;
+	border-right:1px solid #ccc;
+}
+form{
+	padding: 0 2em;
+}
+.form__input{
+	width: 100%;
+	border:0px solid transparent;
+	border-radius: 0;
+	border-bottom: 1px solid #aaa;
+	padding: 1em .5em .5em;
+	padding-left: 2em;
+	outline:none;
+	margin:1.5em auto;
+	transition: all .5s ease;
+}
+.form__input:focus{
+	border-bottom-color: #008080;
+	box-shadow: 0 0 5px rgba(0,80,80,.4); 
+	border-radius: 4px;
+}
+.btn{
+	transition: all .5s ease;
+	border-radius: 30px;
+	color:#008080;
+	font-weight: 600;
+	background-color: #fff;
+	border: 1px solid #008080;
+	margin-top: 1.5em;
+	margin-bottom: 1em;
+}
+.btn:hover, .btn:focus{
+  background-color: rgb(166 236 236);
+	color:#fff;
+}
+.company_title{
+  color: rgb(242, 242, 44);
+  font-size: 35px;
+  font-family: 'Kanit', sans-serif;
+  text-transform: none;
+}
+.product-link{
+  text-decoration: none !important;
+  color: black !important;
+}
+#deltebn{
+  color: red;
+}
+#btn2{
+  color: rgba(255, 187, 0, 0.781);
+}
+#btn2:hover, .btn:focus{
+  background-color: rgba(225, 189, 89, 0.781);
+	color: rgba(255, 187, 0, 0.781);
+}

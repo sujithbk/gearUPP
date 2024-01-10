@@ -7,11 +7,11 @@ import authRoutes from "./routes/authRoute.js";
 import categoryRoutes from "./routes/categoryRoutes.js";
 import productRoutes from "./routes/productRoutes.js";
 import cors from "cors";
-import path from 'path'
+// import path from 'path'
 
-const __filename = new URL(import.meta.url).pathname;
+// const __filename = new URL(import.meta.url).pathname;
 
-const __dirname = path.dirname(__filename);
+// const __dirname = path.dirname(__filename);
 
 
 //configure env
@@ -23,12 +23,12 @@ connectDB();
 //rest object
 const app = express();
 
-///static files
-app.use(express.static(path.join(__dirname, './client/build')))
+// ///static files
+// app.use(express.static(path.join(__dirname, './client/build')))
 
-app.get('*',(req,res)=>{
-  res.sendFile(path.join(__dirname,'./client/build/intex.html'))
-})
+// app.get('*',(req,res)=>{
+//   res.sendFile(path.join(__dirname,'./client/build/intex.html'))
+// })
 
 //middelwares
 app.use(cors());
